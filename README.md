@@ -5,7 +5,7 @@
 ## Versão sem Geospatial Queries.
 
 Essa versão da API não utiliza Geospatial Queries.<br>
-Desenvolvi um algoritmo que faz o cálculo de geo localização direto na Querie, fazendo com que o banco de dados apenas seja utilizado para trazer dados.
+Desenvolvi um algoritmo que faz o cálculo de geolocalização direto na Querie, fazendo com que o banco de dados apenas seja utilizado para trazer dados.
 
 
 ## Instalação
