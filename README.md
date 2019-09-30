@@ -57,7 +57,7 @@ Preste bastante atenção aos passos para que tudo de certo !<br>
 
 #### 1º Configurando requisição
 Primeiro vamos configurar o ***header*** da nossa requisição passando o ***Token*** para ela.<br>
-Lembrando que o serviço está escutando na porta **8080** então vamos utilizar a **URL** **localhost:8080/auth/findpartner**<br>
+Lembrando que o serviço está escutando na porta **8080** então vamos utilizar a **URL** **localhost:8080/auth/findpartner** e o tipo de requisição é **POST**<br>
 O nome do **header** deve ter **Authorization** e o valor deve começar com a palavra **Bearer** seguida de um espaço com o **Token**, em alguns casos o seu software vai precisar que você deixe explicito o tipo da aplicação no header como é o caso do **Insomina** então adicione o um novo header com o nome **Content-Type** com o valor **application/json**.<br>
 <img src="src/Docs/buscar1.png"><br>
 
